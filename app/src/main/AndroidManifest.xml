@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <uses-feature
+            android:name="android.hardware.sensor.proximity"
+            android:required="true" />
+        <uses-feature
+            android:name="android.hardware.sensor.gyroscope"
+            android:required="true" />
     </application>
 
 </manifest>
