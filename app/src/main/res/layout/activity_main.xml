@@ -6,13 +6,21 @@
     android:layout_height="match_parent"
     tools:context="net.bounceme.memes.ors.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Super sekrit spy app xdddd! "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            />
+
+        <TextView
+            android:id="@+id/face"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="hello" />
+        <TextView
+            android:id="@+id/face2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="neja dela" />
 
 </android.support.constraint.ConstraintLayout>
